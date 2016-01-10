@@ -1,0 +1,40 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+
+/*Comment Styling*/
+.comment-submitted{
+    margin: 15px 0 0 0;
+    padding: 10px;
+}
+
+.user-registered, .message-sent{margin: 0 0 15px 0;padding: 10px;}
+.comment-submitted p, .user-registered p{font-weight: bold;margin:0;}
+
+
+
+
+/*Pagination*/
+.pager li.active a{ background-color: #337ab7; color: #fff;}
+
+
+/*Contact Page*/
+#contact-message{resize: vertical;}
+
+
+
+
+
+/*Footer Styling*/
+footer {
+    margin: 50px 0;
+}
